@@ -24,14 +24,33 @@ function HomepageHero() {
       </div>
       <section className="my-8 sm:my-10 grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4">
         <div className="flex flex-col justify-center">
-          <YouWillLearnCard title="Setup Validator" path="/build/setup">
+          <YouWillLearnCard title="Purchase CoolCat tokens" path="/basics/tutorials/purchase">
+            <p>
+              Learn how to setup your cryptocurrency wallet and make your first CoolCat purchase
+            </p>
+          </YouWillLearnCard>
+        </div>
+        <div className="flex flex-col justify-center">
+          <YouWillLearnCard title="Stake your CoolCat tokens" path="/basics/tutorials/staking">
+            <p>
+              Learn how to earn additional CoolCat tokens with your current amount.
+            </p>
+          </YouWillLearnCard>
+          <YouWillLearnCard title="Participate in Governance" path="/build/tutorials/governance">
+            <p>
+              Learn how to govern the future of CoolCat. Vote with your wallet, literally.
+            </p>
+          </YouWillLearnCard>
+        </div>
+        <div className="flex flex-col justify-center">
+          <YouWillLearnCard title="Setup Validator" path="/">
             <p>Learn how to setup and run a validator node for CoolCat.</p>
           </YouWillLearnCard>
         </div>
         <div className="flex flex-col justify-center">
-          <YouWillLearnCard title="Create Games" path="/build/develop">
+          <YouWillLearnCard title="Create Games" path="/">
             <p>
-              Learn how to use CoolCat. Create your own cryptocurrency enabled
+              Learn how to develop on CoolCat. Create your own cryptocurrency enabled
               video games.
             </p>
           </YouWillLearnCard>

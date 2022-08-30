@@ -12,16 +12,17 @@
           "path": "/",
           "routes": [
             {
-              "title": "Socialize",
-              "path": "/basics/socialize"
-            },
-            {
               "title": "Play",
               "path": "/basics/play"
             },
             {
-              "title": "Profit",
-              "path": "/basics/profit"
+              "title": "Socialize",
+              "path": "/basics/socialize"
+            },
+
+            {
+              "title": "Earn",
+              "path": "/basics/earn"
             }
           ]
         },
