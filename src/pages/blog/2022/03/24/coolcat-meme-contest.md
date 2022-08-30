@@ -1,5 +1,5 @@
 ---
-title: 'CoolCat Meme Contest'
+title: '[ARCHIVED] CoolCat Meme Contest'
 author: [guskoss]
 redirect_from:
   - 'blog/2022/03/24/coolcat-meme-contest'

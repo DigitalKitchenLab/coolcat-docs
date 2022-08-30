@@ -1,5 +1,5 @@
 ---
-title: 'CoolCat Meme Contest'
+title: 'CoolCat Snapshot Information'
 author: [guskoss, daydrm, vexxvakan]
 redirect_from:
   - 'blog/2022/04/02/coolcat-snapshot'

@@ -1,5 +1,5 @@
 ---
-title: 'Devlog #1 - Week 1'
+title: '[ARCHIVED] Devlog #1 - Week 1'
 author: [daydrm, guskoss]
 redirect_from:
   - 'blog/2022/03/17/devlog-week-1'

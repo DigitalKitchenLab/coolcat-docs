@@ -1,5 +1,5 @@
 ---
-title: 'Catdrop Details'
+title: '[ARCHIVED] Catdrop Details'
 author: [daydrm, guskoss]
 redirect_from:
   - 'blog/2022/03/12/catdrop-details'

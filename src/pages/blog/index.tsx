@@ -14,13 +14,13 @@ import toCommaSeparatedList from 'utils/toCommaSeparatedList';
 export default function Archive() {
   return (
     <div className="mx-auto max-w-5xl container px-4 sm:px-6 lg:px-8 pt-16">
-      <Seo title={'CoolCat Blog Archive'} />
+      <Seo title={'CoolCat Blog'} />
       <header className="py-8">
         <div className="flex items-center justify-between">
-          <h1 className="text-5xl font-bold">Blog Archive</h1>
+          <h1 className="text-5xl font-bold">Blog</h1>
         </div>
         <p className="text-gray-40 text-2xl pt-2">
-          Historical archive of CoolCat updates, news, announcements, and
+          The official CoolCat blog with updates, news, announcements, and
           release notes.
         </p>
       </header>
