@@ -6,7 +6,7 @@ export function getAuthor(author: string) {
   if (!person) {
     console.warn('Invalid author. Did you add it to authors.json?');
     return {
-      name: 'Digital Kitchen',
+      name: 'The Team at Digital Kitchen',
       url: 'https://twitter.com/coolcatchain',
     };
   }

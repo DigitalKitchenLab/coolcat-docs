@@ -1,5 +1,5 @@
 ---
-title: 'Announcing CoolCat - A Cosmic Journey'
+title: '[ARCHIVED] Announcing CoolCat - A Cosmic Journey'
 author: [vexxvakan, guskoss]
 redirect_from:
   - 'blog/2022/03/08/a-cosmic-journey'

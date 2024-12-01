@@ -1,35 +1,11 @@
 {
   "routes": [
     {
-      "path": "/blog/2022/03/08/a-cosmic-journey.md",
-      "date": "2022-03-08",
-      "title": "Announcing CoolCat - A Cosmic Journey",
-      "author": ["vexxvakan", "guskoss"],
-      "excerpt": "<p>In March 2022, the gates to the world of CoolCat are finally opening. A community-led Discord server and Telegram group where early community members can discuss, govern and meme about CoolCat's upcoming features have been created.</p>\n",
-      "readingTime": "10 min read"
-    },
-    {
-      "path": "/blog/2022/03/12/catdrop-details.md",
-      "date": "2022-03-12",
-      "title": "CatDrop Details",
-      "author": ["guskoss", "daydrm"],
-      "excerpt": "<p>Concluding Science; Empowering Democracy - A lot of very heated discussions have happened in the Cosmos today as proposal #16 on the Juno network went into active voting period. If you want to read more about what has happened today — check out this Twitter thread.</p>\n",
-      "readingTime": "10 min read"
-    },
-    {
-      "path": "/blog/2022/03/17/devlog-week-1.md",
-      "date": "2022-03-17",
-      "title": "Devlog #1 - Week 1",
-      "author": ["guskoss"],
-      "excerpt": "<p>Hello again Cool Cats and Kittens! We’re blown away by the response we’ve received to the announcement of our project, and your excitement is contagious.</p>\n",
-      "readingTime": "7 min read"
-    },
-    {
-      "path": "/blog/2022/03/24/coolcat-meme-contest.md",
-      "date": "2022-03-24",
-      "title": "CoolCat Meme Contest",
-      "author": ["guskoss"],
-      "excerpt": "<p>😼 ATTENTION ALL COOLCATS ‼️ $CCAT giveaway season is well and truly underway!</p>\n",
+      "path": "/blog/2022/08/30/coolcat-the-interchain-gaming-hub.md",
+      "date": "2022-08-30",
+      "title": "CoolCat - The Interchain Gaming Hub",
+      "author": ["dk"],
+      "excerpt": "<p>WELCOME, COOLCATS❕ It’s time for another long awaited update from the tips of my paws! We’re bringing the answers to some of your most burning questions</p>\n",
       "readingTime": "4 min read"
     },
     {
@@ -37,6 +13,38 @@
       "date": "2022-04-02",
       "title": "CoolCat Snapshot",
       "author": ["guskoss", "daydrm", "vexxvakan"],
+      "excerpt": "<p>😼 ATTENTION ALL COOLCATS ‼️ $CCAT giveaway season is well and truly underway!</p>\n",
+      "readingTime": "4 min read"
+    },
+    {
+      "path": "/blog/2022/03/08/a-cosmic-journey.md",
+      "date": "2022-03-08",
+      "title": "[ARCHIVED] Announcing CoolCat - A Cosmic Journey",
+      "author": ["vexxvakan", "guskoss"],
+      "excerpt": "<p>In March 2022, the gates to the world of CoolCat are finally opening. A community-led Discord server and Telegram group where early community members can discuss, govern and meme about CoolCat's upcoming features have been created.</p>\n",
+      "readingTime": "10 min read"
+    },
+    {
+      "path": "/blog/2022/03/12/catdrop-details.md",
+      "date": "2022-03-12",
+      "title": "[ARCHIVED] CatDrop Details",
+      "author": ["guskoss", "daydrm"],
+      "excerpt": "<p>Concluding Science; Empowering Democracy - A lot of very heated discussions have happened in the Cosmos today as proposal #16 on the Juno network went into active voting period. If you want to read more about what has happened today — check out this Twitter thread.</p>\n",
+      "readingTime": "10 min read"
+    },
+    {
+      "path": "/blog/2022/03/17/devlog-week-1.md",
+      "date": "2022-03-17",
+      "title": "[ARCHIVED] Devlog #1 - Week 1",
+      "author": ["guskoss"],
+      "excerpt": "<p>Hello again Cool Cats and Kittens! We’re blown away by the response we’ve received to the announcement of our project, and your excitement is contagious.</p>\n",
+      "readingTime": "7 min read"
+    },
+    {
+      "path": "/blog/2022/03/24/coolcat-meme-contest.md",
+      "date": "2022-03-24",
+      "title": "[ARCHIVED] CoolCat Meme Contest",
+      "author": ["guskoss"],
       "excerpt": "<p>😼 ATTENTION ALL COOLCATS ‼️ $CCAT giveaway season is well and truly underway!</p>\n",
       "readingTime": "4 min read"
     }

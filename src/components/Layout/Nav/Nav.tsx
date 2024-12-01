@@ -180,7 +180,7 @@ export default function Nav() {
         <NavLink href="/" isActive={section === 'home'}>
           Home
         </NavLink>
-        <NavLink href="/build" isActive={section === 'build'}>
+        <NavLink isDisabled href="/build"  isActive={section === 'build'}>
           Build
         </NavLink>
         <NavLink href="/blog" isActive={section === 'posts'}>

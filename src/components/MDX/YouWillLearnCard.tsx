@@ -12,16 +12,15 @@ function YouWillLearnCard({title, path, children}: YouWillLearnCardProps) {
   return (
     <div
       style={{
-        backgroundColor: 'rgba(17, 25, 40, 0.75)',
         borderRadius: '12px',
         border: '1px solid rgba(255, 255, 255, 0.125)',
       }}
-      className="flex flex-col h-full shadow-inner justify-between rounded-lg pb-8 p-6 xl:p-8 mt-3">
+      className="bg-blue-900 dark:bg-slate-800 flex flex-col h-full shadow-inner justify-between rounded-lg pb-8 p-6 xl:p-8 mt-3">
       <div>
-        <h4 className="text-primary dark:text-primary-dark font-bold text-2xl leading-tight">
+        <h4 className="text-rose-500 dark:text-primary-dark font-bold text-2xl leading-tight">
           {title}
         </h4>
-        <div className="my-4">{children}</div>
+        <div className="my-4 text-white">{children}</div>
       </div>
       <div>
         <ButtonLink

@@ -13,7 +13,7 @@ export interface SeoProps {
 export const Seo = withRouter(
   ({
     title,
-    description = 'A JavaScript library for building user interfaces',
+    description = 'CoolCat Docs - Learn about CoolCat',
     image = '/logo-og.png',
     router,
     children,
@@ -29,13 +29,12 @@ export const Seo = withRouter(
       )}
       {/* <link rel="icon" type="image/x-icon" href={favicon} />
       <link rel="apple-touch-icon" href={favicon} />  @todo favicon */}
-      <meta property="fb:app_id" content="623268441017527" />
       {/* OPEN GRAPH */}
       <meta property="og:type" key="og:type" content="website" />
       <meta
         property="og:url"
         key="og:url"
-        content={`https://beta.reactjs.org${router.pathname}`}
+        content={`https://docs.coolcat.space${router.pathname}`}
       />
       {title != null && (
         <meta property="og:title" content={title} key="og:title" />
@@ -51,7 +50,7 @@ export const Seo = withRouter(
       <meta
         property="og:image"
         key="og:image"
-        content={`https://beta.reactjs.org${image}`}
+        content={`https://docs.coolcat.space${image}`}
       />
 
       {/* TWITTER */}

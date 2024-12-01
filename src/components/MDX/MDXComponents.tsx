@@ -16,7 +16,6 @@ import DiagramGroup from './DiagramGroup';
 import SimpleCallout from './SimpleCallout';
 import TerminalBlock from './TerminalBlock';
 import YouWillLearnCard from './YouWillLearnCard';
-import {Challenges, Hint, Solution} from './Challenges';
 import {IconNavArrow} from '../Icon/IconNavArrow';
 import ButtonLink from 'components/ButtonLink';
 import BrandText from './BrandText';
@@ -147,11 +146,6 @@ function YouWillLearn({
 }) {
   let title = isChapter ? 'In this chapter' : 'You will learn';
   return <SimpleCallout title={title}>{children}</SimpleCallout>;
-}
-
-// TODO: typing.
-function Recipes(props: any) {
-  return <Challenges {...props} isRecipes={true} />;
 }
 
 function AuthorCredit({
@@ -297,12 +291,8 @@ export const MDXComponents = {
   MathI,
   Note,
   Recap,
-  Recipes,
   TerminalBlock,
   YouWillLearn,
   YouWillLearnCard,
-  Challenges,
-  Hint,
-  Solution,
   CodeStep,
 };

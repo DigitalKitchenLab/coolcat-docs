@@ -41,7 +41,7 @@ function getDateFromPath(path: string) {
     .map((i) => parseInt(i, 10)); // convert to numbers
 
   return {
-    date: format(new Date(year, month, day), 'MMMM dd, yyyy'),
+    date: format(new Date(year, month -1, day), 'MMMM dd, yyyy'),
     dateTime: [year, month, day].join('-'),
   };
 }

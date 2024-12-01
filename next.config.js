@@ -8,7 +8,6 @@ const redirects = require('./src/redirects.json');
 const nextConfig = {
   pageExtensions: ['jsx', 'js', 'ts', 'tsx', 'mdx', 'md'],
   experimental: {
-    plugins: true,
     scrollRestoration: true,
     legacyBrowsers: false,
     browsersListForSwc: true,
@@ -16,16 +15,6 @@ const nextConfig = {
   async redirects() {
     return redirects.redirects;
   },
-  // TODO: this causes extra router.replace() on every page.
-  // Let's disable until we figure out what's going on.
-  // rewrites() {
-  //   return [
-  //     {
-  //       source: '/feed.xml',
-  //       destination: '/_next/static/feed.xml',
-  //     },
-  //   ];
-  // },
   webpack: (config, {dev, isServer, ...options}) => {
     if (process.env.ANALYZE) {
       const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');

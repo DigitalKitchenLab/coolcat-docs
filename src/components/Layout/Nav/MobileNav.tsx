@@ -42,6 +42,7 @@ export function MobileNav() {
           Home
         </TabButton>
         <TabButton
+         isDisabled
           isActive={section === 'build'}
           onClick={() => setSection('build')}>
           Build
@@ -52,10 +53,7 @@ export function MobileNav() {
           Posts
         </TabButton>
       </div>
-      {/* No fallback UI so need to be careful not to suspend directly inside. */}
-      <React.Suspense fallback={null}>
-        <SidebarRouteTree routeTree={tree as RouteItem} isMobile={true} />
-      </React.Suspense>
+      <SidebarRouteTree routeTree={tree as RouteItem} isMobile={true} />
     </>
   );
 }
@@ -64,10 +62,12 @@ function TabButton({
   children,
   onClick,
   isActive,
+  isDisabled
 }: {
   children: any;
   onClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
   isActive: boolean;
+  isDisabled?: boolean;
 }) {
   const classes = cn(
     'inline-flex items-center w-full border-b-2 justify-center text-base leading-9 px-3 py-0.5 hover:text-link hover:gray-5',
@@ -75,7 +75,8 @@ function TabButton({
       'text-link dark:text-link-dark dark:border-link-dark border-link font-bold':
         isActive,
       'border-transparent': !isActive,
-    }
+    },
+    {'text-slate-500 dark:text-slate-500 hover:text-slate-500 pointer-events-none': isDisabled},
   );
   return (
     <button className={classes} onClick={onClick}>

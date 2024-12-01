@@ -1,18 +1,14 @@
 ---
-title: 'CoolCat Meme Contest'
+title: 'CoolCat Snapshot Information'
 author: [guskoss, daydrm, vexxvakan]
 redirect_from:
   - 'blog/2022/04/02/coolcat-snapshot'
 ---
 
-<Gotcha> This information is outdated but kept online for archiving purposes.</Gotcha>
-
 WELCOME, COOLCATS❕
 It’s time for another long awaited update from the tips of my paws! We’re bringing the answers to some of your most burning questions, updates on our progress and we’re also revealing the winners of our latest contest. Keep your pointy ears peeled! 😺
 
 So, as you all know, our development team has been working 🕜 round the clock 🕚 to get CoolCat into shape, so we are delighted to announce that CosmWasm, the framework for our smart contracts, has been successfully integrated in the $CCAT blockchain❗🎊 Additionally, an in-house testnet has been deployed and is now being battle-tested with further development of our webapp, meaning we are progressing ahead of schedule! ↗️ Isn’t that amazing? 🙀
-
-Furthermore, CoolCat has been updated to version 0.45.1 of the Cosmos SDK, ensuring that we can integrate Interchain Account functionality in the future. In other words, it’s all going very well.
 
 Let’s talk snapshots next. We know a lot of our community members are unsure exactly when the snapshots for our first CatDrop were taken, so here are the official numbers. 📊
 
